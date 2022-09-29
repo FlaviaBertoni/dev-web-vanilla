@@ -15,12 +15,12 @@ front-end uma lista de tarefas. Também irá implementar um front-end que deve r
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-Obs.: para gerenciar as suas dependencias use o Yarn (não se esqueça de inicia-lo na raiz do seu projeto).
+Obs.: não se esqueça de iniciar o yarn na raiz do seu projeto e lembre-se a ideia é não utilizar nenhuma dependência externa na primeira versão, se depois de finalizar você quiser adicionar libs e frameworks para implementar as melhorias fique a vontade.
 
 
 ## Organização
 
-Na raiz do seu projeto você deve ter duas pastas uma chamada *server* onde ficará o código em node.js do seu servidor e outra chamada *client*
+Na raiz do seu projeto você deve ter duas pastas uma chamada `server` onde ficará o código em node.js do seu servidor e outra chamada `client`
 onde ficará seu código do front-end.
 ```
 server
