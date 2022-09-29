@@ -17,6 +17,8 @@ front-end uma lista de tarefas. Também irá implementar um front-end que deve r
 
 Obs.: não se esqueça de iniciar o yarn na raiz do seu projeto e lembre-se a ideia é não utilizar nenhuma dependência externa na primeira versão, se depois de finalizar você quiser adicionar libs e frameworks para implementar as melhorias fique a vontade.
 
+Dica: os links acima são para as documentações das tecnologias, quando ficar na dúvida use a documentação para te ajudar.
+
 
 ## Organização
 
@@ -37,8 +39,7 @@ package.json
 Use as libs nativas do node.js, como o http, para criar seu servidor no arquivo server/index.js. Ele deve ouvir por padrão a porta
 3000 no localhost.
 
-Crie um script no package.json que irá iniciar o servidor, assim você poderá usar o comando `yarn start`
-no seu terminal sempre que precisar reiniciar o servidor.
+Crie um script start no package.json que irá iniciar o servidor executando o arquivo server/index.js com node, assim você poderá usar o comando `yarn start` no seu terminal sempre que precisar reiniciar o servidor.
 
 ### Static Files
 
