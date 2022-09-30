@@ -93,7 +93,18 @@ Deve ter um layout responsivo conforme os protótipos abaixo:
 
 ## Melhorias
 
-Agora que você aprendeu a disponibilizar os static files (html/css/imagens) sem frameworks, experimente usar o [express](https://expressjs.com/), 
+Agora que você já aprendeu a fazer um projeto sem frameworks e entendeu o que eles escondem, vamos evoluir essa aplicação com as melhorias abaixo!
+
+1 - Você aprendeu a disponibilizar os static files (html/css/imagens) sem frameworks, então agora experimente usar o [express](https://expressjs.com/), 
 para aproveitar a facilidade dele.
 
-Você também pode adicionar a opção de criar novas tarefas apartir da tela e rota POST /api/task persistindo as tarefas em um .json por exemplo.
+2 - É muito comum nos projetos web que a api de acesso aos dados fique em um servidor separado do front-end. Portanto Crie um novo projeto chamdo `api` para servir apenas como sua api REST, remova a rota GET /api/tasks do server/index.js e leve para esse novo projeto. Refatore seu front-end para consumir as tasks desse novo servidor. Aproveite e use o [express](https://expressjs.com/).
+
+3 - Que tal incrementar o projeto fazendo um CRUD, ou seja, adicionando funcionalidades de criação, deleção e alteração das tarefas. Para isso você não precisa necessariamente ter um banco de dados, pode apenas criar um arquivo .json com as tarefas e persistir nele as alterações, mas fica ao seu critério. 
+
+Sugestão de novas rotas no projeto da api: 
+ - POST /api/task: salva uma nova tarefa
+ - PUT /api/task: alterar uma tarefa existente
+ - DELETE /api/task: deleta a tarefa
+
+No front-end você pode criar novas páginas para essas funcionalidades ou adicionar botões na lista que permitem adicionar novas tarefas e editar/deletar o item. Use sua criatividade! :)
